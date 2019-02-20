@@ -1,0 +1,5 @@
+str1=input("Enter a string")
+str2=input("Enter another string")
+sub=set(str1) & set(str2)
+num=len(str2)-len(sub)
+print(num)
