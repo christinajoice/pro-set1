@@ -15,4 +15,4 @@ for i in range(0,n-1):
       elif c[i]==c[j]:
         if a[i]<a[j]:
           a[i],a[j]=a[j],a[i]
-print(a)  
+print('\n'.join(a))
